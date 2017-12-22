@@ -1,0 +1,26 @@
+{
+  "name": "maven-deploy-cli",
+  "version": "1.5.0",
+  "description": "",
+  "main": "cli.js",
+  "bin": {
+    "jsmvn": "./cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wallaroo/maven-deploy-cli.git"
+  },
+  "author": "wallaroo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wallaroo/maven-deploy-cli/issues"
+  },
+  "homepage": "https://github.com/wallaroo/maven-deploy-cli#readme",
+  "dependencies": {
+    "commander": "^2.12.2",
+    "maven-deploy": "^1.5.0"
+  }
+}
